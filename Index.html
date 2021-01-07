@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body ">
+                 
+    <nav>
+                <div class="circle"></div>
+                <header>
+                   <!-- <a href="#"> <img src="" class="logo"></a>-->
+                   <div class="logo"><h1>Website Moderno</h1></div>
+                
+                        <ul>
+                            <li><a href="#section1">Home</a></li>
+                            <li><a href="#section2">Service</a></li>
+                            <li><a href="#section3">About</a></li>
+                            <li><a href="#section4">Contact</a></li>
+                        </ul>  
+                                                   
+                </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>Computer science<br>It's <span>Software</span></h2>
+                    <p>Computer science is the science that studies the techniques, methodologies, computational instruments and technological applications, which informatthe processes and develop.</p>
+                    <a href="#">Welcome</a> </div>
+                    <div class="imgBox">
+                        <img src="" class="">
+                    </div>
+                    
+            </div>
+            
+            <ul class="sci">
+                <li><a href="#"> <img src="imagens/facebook.png" alt=""></a></li>
+                <li><a href="#"> <img src="imagens/twitter.png" alt=""></a></li>
+                <li><a href="#"> <img src="imagens/instagram.png" alt=""></a></li>
+            </ul>
+
+
+     </nav 
+            <!--Codigo texto escrevendo-->
+            <script>
+                function typeWriter(elemento){
+                    const textoArray = elemento.innerHTML.split('');
+                    elemento.innerHTML = '';
+                    textoArray.forEach((letra, i) =>{
+                    setTimeout(() => elemento.innerHTML += letra, 75 * i)  
+                });
+                }
+                
+                const titulo = document.querySelector('p');
+                typeWriter(titulo);
+            </script>
+        <!--Codigo texto escrevendo-->
+
+           
+           
+        
+
+<section class="scroll">
+    <div id="section1"></div>
+    
+    <div id="section2"></div>
+    <div id="section3"><h1>k</h1></div>
+    <div id="section4"><h1></h1></div>
+</section>
+
+    
+</body>
+</html>
